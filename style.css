@@ -1,0 +1,147 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.fab{
+    font-size: 60px;
+    padding:20px 30px;
+    cursor: pointer;
+}
+.navbar{
+   padding:20px 100px;
+    background-color: rgb(100, 100, 253);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-link{
+    text-decoration: none;
+    color:white;
+}
+
+.list-nav{
+    list-style-type: none;
+    display:flex;
+    color:white;
+
+}
+
+.list-nav>li> a{
+    color:white;
+    text-decoration: none;
+   
+}
+.abt-link1{
+    padding-right:100px;
+}
+#intro-wel{
+    
+   height:100vh;
+   background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(8, 0, 5, 0.6)),url('./images/red-closed.JPG');
+    background-size:cover;
+    background-position:50% 40%; 
+    position: relative;
+}
+.intro-text{
+    position: absolute;
+    padding-left: 100px;
+    height: 70%;
+    width:100%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-end;
+}
+.intro-text{
+    font-family: 'Langar', cursive;
+}
+.intro-text >h1{
+    font-size: 70px;
+}
+
+.texts-btns{
+    background-color: white;
+   width:50%;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+.about-content{
+    padding:30px 100px;
+    background-color: rgb(223, 223, 232);
+   
+}
+.abt-heading{
+    text-align: left;
+}
+.about-ex-content{
+display:flex;
+flex-direction: column;
+
+}
+
+
+
+#contact{
+    padding:20px;
+    text-align: center;
+    background-color: rgb(100, 100, 253);
+}
+.contact-heading{
+    color:white;
+}
+.fb-icon, .li-icon{
+    color: rgb(13, 13, 79);
+}
+.insta-icon{
+   color:#7d56cc;
+}
+.footer-content{
+    background-color: #000;
+    color:white;
+    text-align: center;
+    padding:20px;
+}
+.git-icon{
+    color:black;
+}
+.bg-active{
+    background-color: rgb(13, 13, 79);
+    color:white;
+    padding:8px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        padding:20px 10px;
+         display:flex;
+        
+        justify-content: space-between;
+    align-items:center;
+     }
+     .list-nav{
+        display: flex;
+        flex-direction: column;
+         padding-left: 0%;
+     }
+     .abt-link1{
+         padding-right:30px;
+     }
+     .fab{
+         padding:10px;
+     }
+     .about-content{
+        padding:20px;
+     }
+     .intro-text{
+         padding-left:20px;
+     }
+     .texts-btns{
+         width:100%;
+     }
+  }
