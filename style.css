@@ -99,12 +99,13 @@ flex-direction: column;
 
 
 #contact{
-    padding:20px;
+   
+   margin:70px 5px 70px 5px;
     text-align: center;
-    background-color: rgb(100, 100, 253);
+    /* background-color: rgb(100, 100, 253); */
 }
 .contact-heading{
-    color:white;
+    color:'black';
 }
 .fb-icon, .li-icon{
     color: rgb(13, 13, 79);
@@ -179,7 +180,6 @@ flex-direction: column;
      }
      .list-nav{
         display: flex;
-        flex-direction: column;
          padding-left: 0%;
      }
      .abt-link1{
