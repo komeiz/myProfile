@@ -18,6 +18,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .home-link{
     text-decoration: none;
@@ -214,6 +215,8 @@ flex-direction: column;
     .box-1,.box-2,.box-3{
         /* display: none; */
     }
+    
+
     /* .container-imgs{
         position: relative;
         width:auto;
