@@ -49,16 +49,33 @@
           </div>
           <div class="about-ex-content">
             <div class="texts-btns">
-              <div class=" about-0 bg-active">Objective</div>
-              <div class="about-1">Education</div>
-              <div class="about-2">skills</div>
-              <div class="about-3">Projects</div>
-              <div class="about-4">Languages</div>
-              <div class="about-5">My Gallery</div>
+              <div
+                class="abt-btns active blue about-0"
+                onclick="AboutMeClicks(0)"
+              >
+                Objective
+              </div>
+              <div class="abt-btns about-1" onclick="AboutMeClicks(1)">
+                Education
+              </div>
+              <div class="abt-btns about-2" onclick=" AboutMeClicks(2)">
+                skills
+              </div>
+              <div class="abt-btns about-3" onclick=" AboutMeClicks(3)">
+                Projects
+              </div>
+              <div class="abt-btns about-4" onclick=" AboutMeClicks(4)">
+                Languages
+              </div>
+              <div class="abt-btns about-5" onclick=" AboutMeClicks(5)">
+                My Gallery
+              </div>
             </div>
 
+            <p class="info"></p>
+
             <div class="descp-texts">
-              <div class="obj-text">
+              <div class="obj-text abt-t abt-0">
                 <h4>Objective</h4>
                 <p>
                   To work with an organisation which gives me the opportunity to
@@ -66,7 +83,7 @@
                   organisation’s objective
                 </p>
               </div>
-              <div class="edu-text">
+              <div class="edu-text abt-t abt-1">
                 <h4>education</h4>
                 <p>
                   <b>
@@ -83,11 +100,11 @@
                   Secondary School Certificate
                 </p>
               </div>
-              <div class="skills-text">
+              <div class="skills-text abt-t abt-2">
                 <h4>Skills</h4>
                 <p><i>HTML, CSS, JavaScript, ReactJs, Bootstrap</i></p>
               </div>
-              <div class="projects-text">
+              <div class="projects-text abt-t abt-3">
                 <h4>Projects</h4>
                 <p>
                   <b
@@ -99,17 +116,43 @@
                   adult learners. link to my github:
                 </p>
               </div>
-              <div class="languages-text">
+              <div class="languages-text abt-t abt-4">
                 <h4>Languages</h4>
                 <p><i>English,Yoruba(not so fluent)</i></p>
               </div>
 
-              <div class="my-gallery-text">
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+              <div class="my-gallery-text abt-t abt-5">
+                <div class="container-imgs">
+                  <div class="box box-0">
+                    <div class="img-box">
+                      <img src="./images/imageofme2.png" class="images default-image" alt="" />
+                    </div>
+                  </div>
+  
+                  <div class="box box-1">
+                    <div class="img-box">
+                      <img src="./images/imageofme3.png" class="images  " alt="" />
+                    </div>
+                  </div>
+                  <div class="box box-2">
+                    <div class="img-box">
+                      <img src="./images/imageofme4.png" class="images " alt="" />
+                    </div>
+                  </div>
+                  <div class="box box-3">
+                    <div class="img-box">
+                      <img src="./images/imageofme5.JPG" class="images3" alt="" />
+                    </div>
+                  </div>
+                </div>
+               <div class="buttons-img-change">
+                <button class="btn-img-change prv-btn" onclick="prev()">prev</button>
+                <button class="btn-img-change nxt-btn" onclick="next()">next</button>
+               </div>
+
+                       
               </div>
+
             </div>
           </div>
         </div>
@@ -122,10 +165,14 @@
             <p>reach me on :</p>
           </div>
           <div class="con-links">
-           <a href="#">  <i class="fab fa-facebook fb-icon"></i></a>
-           <a href="#">  <i class="fab fa-instagram insta-icon"></i></a>
-           <a href="https://www.linkedin.com/in/busola-odoko-301ab0161/">  <i class="fab fa-linkedin-in li-icon"></i></a>
-            <a href="https://github.com/komeiz " class="git-icon"> <i class="fab fa-github "></i>  </a>
+            <a href="#"> <i class="fab fa-facebook fb-icon"></i></a>
+            <a href="#"> <i class="fab fa-instagram insta-icon"></i></a>
+            <a href="https://www.linkedin.com/in/busola-odoko-301ab0161/">
+              <i class="fab fa-linkedin-in li-icon"></i
+            ></a>
+            <a href="https://github.com/komeiz " class="git-icon">
+              <i class="fab fa-github"></i>
+            </a>
             <i class="fab fa-g"></i>
           </div>
         </div>
@@ -138,6 +185,6 @@
       </div>
     </footer>
 
-    <script src="script.s"></script>
+    <script src="script.js"></script>
   </body>
 </html>
